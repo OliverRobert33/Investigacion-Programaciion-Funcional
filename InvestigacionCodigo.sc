@@ -6,7 +6,7 @@ def integracion(f: Double => Double, a:Double, b:Double): Double =
 def calError(valorEsperado: Double, valorObtenido:Double): Double =
   math.abs(valorEsperado- valorObtenido)
 
-
+// Integral 1
 val funcion1: Double => Double = (x: Double) => -math.pow(x,2) + 8*x - 12
 val res1: Double = integracion(funcion1, 3, 5)
 val valorEsperado1: Double = 7.33
